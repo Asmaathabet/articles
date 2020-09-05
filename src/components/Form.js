@@ -1,6 +1,6 @@
 import React , { Component } from 'react';
 import {connect} from 'react-redux';
-import { addArticle } from '../js/actions';
+import  addArticle from '../js/actions';
 
 const mapDispatchToProps = (dispatch) => {
 return {
@@ -45,7 +45,7 @@ class ConnectedForm extends Component {
                 onChange={this.handleChange}
               />
             </div>
-            <button type="submit">SAVE</button>
+            <button type="submit">Add Article</button>
           </form>
         );
       }
