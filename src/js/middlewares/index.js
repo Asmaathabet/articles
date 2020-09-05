@@ -1,4 +1,4 @@
-import {ADD_ARTICLE} from '../constants';
+import {ADD_ARTICLE} from '../constants/action-types';
 
 const forbiddenWords = ["spam", "government", "flag"]; 
 
